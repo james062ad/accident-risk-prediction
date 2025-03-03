@@ -1,6 +1,6 @@
 ﻿services:
   - type: web
-    name: accident-risk-prediction-api
+    name: accident-risk-prediction-3
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
